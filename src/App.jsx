@@ -1,11 +1,15 @@
+import Home from "./pages/home/Home.jsx";
+import Topbar from "./topbar/topbar.jsx"
 
-function App() {
+
+function App(){
   
   return (
-  <>
-  
-  </>
-  )
-}
+    <>
+      <Topbar/>
+      <Home/>
+    </>
+  );
+};
 
-export default App
+export default App;
