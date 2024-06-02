@@ -1,5 +1,5 @@
 import "./Header.css" 
-import Hey from '../../src/assets/lofi.jpg'
+import Hey from '../../assets/lofi.jpg'
 
 export default function Header() {
   return (

@@ -1,5 +1,5 @@
 import './Posts.css'
-import Post from '../../src/post/Post.jsx'
+import Post from '../post/Post.jsx'
 
 export default function Posts() {
   return (

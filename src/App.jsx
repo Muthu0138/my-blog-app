@@ -1,5 +1,6 @@
 import Home from "./pages/home/Home.jsx";
-import Topbar from "./topbar/topbar.jsx"
+import Single from "./pages/single/Single.jsx";
+import Topbar from "../src/components/topbar/topbar.jsx"
 
 
 function App(){
@@ -7,7 +8,7 @@ function App(){
   return (
     <>
       <Topbar/>
-      <Home/>
+      <Single/>
     </>
   );
 };

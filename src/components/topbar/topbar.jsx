@@ -1,5 +1,5 @@
 import './topbar.css'
-import Hey from '../../src/assets/elliot.jpg'
+import Hey from '../../assets/elliot.jpg'
 
 function topbar() {
   return (
