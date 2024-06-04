@@ -1,7 +1,9 @@
 import './topbar.css'
 import Hey from '../../assets/elliot.jpg'
+import { Link } from 'react-router-dom';
 
 function topbar() {
+  
   return (
     <div className="top"> 
           <div className='topLeft'>
@@ -12,15 +14,26 @@ function topbar() {
             </div>
           <div className='topCenter '>
              <ul className='topList'>
-             <li className="topListItem">HOME</li>
-             <li className="topListItem">ABOUT</li>
-             <li className="topListItem">CONTACT</li>
-             <li className="topListItem">WRITE</li>
-             <li className="topListItem">LOGOUT</li>
+             <li className="topListItem">
+                 <Link to="/">HOME</Link>
+             </li>
+             <li className="topListItem">
+                  <Link to="/">ABOUT</Link>
+             </li>
+             <li className="topListItem">
+                  <Link to="/">CONTACT</Link> 
+             </li>
+             <li className="topListItem">
+                  <Link to="/write">WRITE</Link>
+             </li>
+            <li className="topListItem">
+                  <Link to="/login">LOGOUT</Link> 
+             </li>
              </ul>
           </div>
           <div className='topRight'>
-            <img className='topImg' src={Hey} alt="" />  
+          <Link to="/settings"><img className='topImg' src={Hey} alt="" /></Link>
+             
             <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
           </div>
       </div>

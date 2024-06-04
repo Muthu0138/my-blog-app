@@ -1,6 +1,5 @@
-import SideBar from '../../components/sidebar/SideBar'
 import './Settings.css'
-import Img from '../../assets/room.jpg'
+import Img from '../../assets/elliot.jpg'
 
 export default function Settings() {
   return (
@@ -29,7 +28,6 @@ export default function Settings() {
 
         </form>
       </div>
-      <SideBar />
     </div>
   )
 }

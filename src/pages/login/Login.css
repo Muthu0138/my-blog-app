@@ -41,9 +41,12 @@
 
 .loginRegisterButton{
     position: absolute;
-    top: 60px;
+    top: 70px;
     right: 20px;
-    background-color: teal;
+    background-color:lightcoral ;
     cursor: pointer;
     border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
 }
